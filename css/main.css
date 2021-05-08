@@ -1,0 +1,79 @@
+body{
+    font-family:'Press Start 2P', cursive;
+    font-size: 80%;
+}
+
+.button{
+    background-color:#44cdf0 ;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.about{
+    font-size: 12px;
+    font-weight: 100;
+    color:gray ;
+    margin-bottom: 8px;
+}
+
+.avatar{
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    box-shadow:6px 6px 0px 0px rgb(99, 99, 99) ;
+}
+
+.contact{
+    margin-bottom: 48px;
+}
+
+.contact-icon{
+    margin-right: 10px;
+    width: 16px;
+}
+
+.contact-item{
+    margin-bottom: 4px;
+}
+
+
+.container {
+    background-color:lightgray;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.5)),url(file:///D:/งาน/MyResume/images/Code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.job{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.name{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 50px;
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .name{
+        font-size: 16px;
+    }
+}
